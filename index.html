@@ -427,12 +427,20 @@
         </div>
       </div>
     </footer>
+
+    <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" data-modal-close>X</button>
+        <button class="modal-button" data-modal-close>
+          <svg class="button-icon" width="11px" height="11px">
+            <use href="./images/sprite.svg#close"></use>
+          </svg>
+        </button>
         <p>Оставьте свои данные, мы вам перезвоним</p>
       </div>
     </div>
+
+    <!-- Скрипт модалки -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
